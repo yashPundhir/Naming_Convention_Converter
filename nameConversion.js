@@ -9,10 +9,9 @@ function conversion() {
 		kebabCaseConvert(inputArray);
 		screamingKebabCaseConvert(inputArray);
 	} else {
-		let el = document.createElement("h1");
-		el.setAttribute("id", "errorMssg");
-		el.textContent = `Please Use Space Separated Words To Get The Output`;
-		document.querySelector(".cases_div").appendChild(el);
+		alert(
+			`Please use Space Separated Words to get the Result wrt All Naming Conventions`
+		);
 	}
 }
 function camelCaseConvert(inputArr) {
