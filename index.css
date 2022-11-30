@@ -1,7 +1,10 @@
+body {
+	background-color: #252525;
+}
 .naming_conversion {
 	margin: 2em;
 	padding: 1.4em;
-	background: tomato;
+	background: #656565;
 	border-radius: 16px;
 	display: flex;
 	justify-content: center;
@@ -19,9 +22,12 @@
 	outline: 0;
 	border-radius: 16px;
 	box-shadow: none;
-	border: navajowhite;
+	border: red;
 	padding: 0.5em 1.4em;
 	width: 40%;
+	background-color: #323232;
+	color: #f2f2f2;
+	font-weight: 300;
 }
 
 .cases_div {
@@ -32,18 +38,19 @@
 
 .case_div {
 	width: 100%;
-	background-color: cadetblue;
+	background-color: #323232;
 	border-radius: 12px;
 	margin: 0.5em 0em;
 	padding: 0.5em;
 	display: flex;
 	gap: 10px;
 	align-items: center;
+	color: #f2f2f2;
 }
 
 .case_div h1 {
 	font-size: 1em;
-	font-weight: 500;
+	font-weight: 300;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	padding: 0em;
 	margin: 0em;
@@ -51,11 +58,11 @@
 
 .case_div p {
 	font-size: 1.2em;
-	font-weight: bold;
+	font-weight: 500;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	padding: 0em;
 	margin: 0em;
-	color: black;
+	color: #f2f2f2;
 }
 
 #convert-btn {
@@ -65,4 +72,6 @@
 	border-radius: 12px;
 	padding: 0.3em 1.4em;
 	cursor: pointer;
+	color: #f2f2f2;
+	background-color: #323232;
 }
